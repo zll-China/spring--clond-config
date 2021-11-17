@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+remote:
+  service:
+    url-list:
+      -http://localhost:8082/
+      -http://localhost:8083/
+      -http://localhost:8084/
+
